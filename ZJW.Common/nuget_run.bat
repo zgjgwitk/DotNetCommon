@@ -1,0 +1,1 @@
+Nuget pack nupkg ZJW.Common.csproj

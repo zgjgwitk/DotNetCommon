@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZJW.Common", "ZJW.Common\ZJW.Common.csproj", "{A01C6908-6CCC-4B39-BE10-0F5F468D06F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoDoc", "DemoDoc", "{289F8563-2779-410E-A061-E8A39D3C4BC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excel", "Excel", "{D72E8375-3395-46ED-A93D-D77F34E35379}"
+	ProjectSection(SolutionItems) = preProject
+		DemoDoc\ExcelExportServices.cs = DemoDoc\ExcelExportServices.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D72E8375-3395-46ED-A93D-D77F34E35379} = {289F8563-2779-410E-A061-E8A39D3C4BC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40EAA6BE-6A1E-4369-AA0A-A602826DF0DC}
